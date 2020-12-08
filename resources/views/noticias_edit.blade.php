@@ -9,7 +9,7 @@
 {{--crsf para proteger o formulario contra ataques--}}
 @csrf
 
-<h3>Editar Notícia</h3>
+<h3>Editar Notícias</h3>
 
 {{--Titulo da noticia--}}
 <div class="form-group">
@@ -37,16 +37,16 @@
 	@else
 		<input type="checkbox" name="check_visivel"> Notícia Visível
 	@endif
-	
+
 </div>
 
 {{--Atualizar--}}
 <div class="form-group text-center">
 	<button class="btn btn-primary" role="submit">Salvar</button>
-	
+
 </div>
 
-	
+
 </form>
 
 @endsection
