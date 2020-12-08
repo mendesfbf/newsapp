@@ -9,7 +9,7 @@
 {{--crsf para proteger o formulario contra ataques--}}
 @csrf
 
-<h3>Nova Notícia</h3>
+<h3>Novas Notícias</h3>
 
 {{--Titulo da noticia--}}
 <div class="form-group">
